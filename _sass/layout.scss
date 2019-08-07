@@ -45,11 +45,11 @@
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
-// 	grid-template-areas: 
-// 		"h h h h h h h h h h h h"
-// 		"p p p p p              "
-// 		"c c c c c c c c c c c c"
-// 		"f f f f f f f f f f f f";
+	grid-template-areas: 
+		"h h h h h h h h h h h h" 
+		"a a a a a a a a a a a a" 
+		"t t t t t t t t t t t t" 
+		"f f f f f f f f f f f f";
 }
 
 @media only screen and (max-width: 1070px) {
@@ -187,9 +187,15 @@ nav > ul li a:active {
 }
 
 .aboutTitle {
+	grid-area: a
 	color: $app-title-color;
 	margin-top: 30px;
-	text-align: center;
+	text-align: leading;
+}
+
+.aboutText {
+	grid-area: t
+	color: $app-title-color;
 }
 
 .appPrice {
