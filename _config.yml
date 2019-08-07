@@ -19,16 +19,16 @@ enable_smart_app_banner                   : true                                
 
 
 # Information About Yourself                          :
-your_name              : "Pranav Karthik"
-your_link              : "https://pranavk.tech"
-your_city              : "Vancouver, BC"
-email_address          : "support@trackrapp.co"
-linkedin_username      : "pranavkarthik10"
+your_name              : Pranav Karthik
+your_link              : https://pranavk.tech
+your_city              : Vancouver, BC
+email_address          : support@trackrapp.co
+linkedin_username      : pranavkarthik10
 facebook_username      : 
 instagram_username     : 
-twitter_username       : "tech_pranav"
-github_username        : "pranavkarthik10"
-youtube_username       : "Pranav Karthik"
+twitter_username       : tech_pranav
+github_username        : pranavkarthik10
+youtube_username       : Pranav Karthik
 
 
 # Feature List                            Edit, add or remove features to be presented.
