@@ -187,14 +187,13 @@ nav > ul li a:active {
 }
 
 .aboutTitle {
-	grid-area: a
+	grid-area: a;
 	color: $app-title-color;
 	margin-top: 30px;
-	text-align: leading;
 }
 
 .aboutText {
-	grid-area: t
+	grid-area: t;
 	color: $app-title-color;
 }
 
