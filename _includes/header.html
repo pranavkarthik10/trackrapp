@@ -1,6 +1,6 @@
 
 <header>
-	<div class="logo">
+	<a class="logo" href="/">
 		<div class="appIconShadow">
 			<svg width="0" height="0">
 				<defs>
@@ -11,16 +11,16 @@
 			</svg>
 			<img class="headerIcon" src="{{ site.baseurl }}/{{ site.app_icon }}">
 		</div>
-		<a class="headerName" href="{{ site.baseurl }}"><p class="headerName">{{ site.app_name }}</p></a>
-	</div>
+		<p class="headerName">{{ site.app_name }}</p>
+	</a>
 	<nav>
 		<ul>
 			<li>
 		<a href="{{ site.baseurl }}/about">About</a>
 				</li>
-<!-- 			{% if site.presskit_download_link %}
+			{% if site.presskit_download_link %}
 			<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
-		</ul> -->
+		</ul>
 	</nav>
 </header>
