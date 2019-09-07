@@ -52,6 +52,21 @@
 		"c c c c c c c c c c c c"
 		"ct ct ct ct ct ct ct ct ct ct ct ct";
 }
+.privacycontainer {					// Set up the container for the site content
+	display: grid;
+	margin: auto;
+	max-width: $content-width;
+	padding-left: 15px;
+	padding-right: 15px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 115px auto auto auto;
+	grid-column-gap: 30px;
+	grid-template-areas: 
+		"h h h h h h h h h h h h" 
+		"a a a a a a a a a a a a" 
+		"p p p p p p p p p p p p" 
+		"p p p p p p p p p p p p";
+}
 
 @media only screen and (max-width: 1070px) {
 
@@ -199,7 +214,7 @@ nav > ul li a:active {
 	margin-top: 10px;
 }
 .privacyText {
-	grid-area: t;
+	grid-area: p;
 	color: $app-title-color;
 	margin-top: 10px;
 	font-size: 10px;
