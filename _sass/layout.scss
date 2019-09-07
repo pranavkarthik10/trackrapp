@@ -198,6 +198,12 @@ nav > ul li a:active {
 	color: $app-title-color;
 	margin-top: 10px;
 }
+.privacyText {
+	grid-area: t;
+	color: $app-title-color;
+	margin-top: 10px;
+	font-size: 10px;
+}
 
 .contactTitle {
 	grid-area: c;
