@@ -82,7 +82,7 @@
 		"a a a a a a a a a a a a"
 		"t t t t t t t t t t t t"
 		"c c c c c c c c c c c c"
-		"c c c c c c c c c c c c";
+		"th th th th th th th th th th th th";
 }
 @media only screen and (max-width: 1070px) {
 
@@ -247,6 +247,13 @@ nav > ul li a:active {
 	color: $app-title-color;
 	margin-top: 10px;
 }
+
+.thirdTitle {
+	grid-area: th;
+	color: $app-title-color;
+	margin-top: 30px;
+}
+
 
 .appPrice {
 	color: $app-price-color;
