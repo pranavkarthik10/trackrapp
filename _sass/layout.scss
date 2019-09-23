@@ -82,7 +82,7 @@
 		"a a a a a a a a a a a a"
 		"t t t t t t t t t t t t"
 		"c c c c c c c c c c c c"
-		"s s s s s s s s s s s s"
+		"s s s s2 s2 s2 s3 s3 s3 s4 s4 s4"
 		"fo fo fo fo fo fo fo fo fo fo fo fo"
 		"vi vi vi vi vi vi vi vi vi vi vi vi"
 		"th th th th th th th th th th th th"
@@ -92,6 +92,15 @@
 
 .screen {
 	grid-area: s;
+}
+.screen2 {
+	grid-area: s2;
+}
+.screen3 {
+	grid-area: s3;
+}
+.screen4 {
+	grid-area: s4;
 }
 .promo {
 	grid-area: pr;
