@@ -68,6 +68,21 @@
 		"p p p p p p p p p p p p";
 }
 
+.presscontainer {					// Set up the container for the site content
+	display: grid;
+	margin: auto;
+	max-width: $content-width;
+	padding-left: 15px;
+	padding-right: 15px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 115px 876px auto auto;
+	grid-column-gap: 30px;
+// 	grid-template-areas: 
+// 		"h h h h h h h h h h h h"
+// 		"p p p p p i i i i i i i"
+// 		"c c c c c c c c c c c c"
+// 		"f f f f f f f f f f f f";
+}
 @media only screen and (max-width: 1070px) {
 
 	.container {					// Set up the container for the site content
