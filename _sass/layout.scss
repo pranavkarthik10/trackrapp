@@ -75,7 +75,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px auto auto auto auto auto auto auto;
+	grid-template-rows: 115px auto auto auto auto auto auto auto auto auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -86,6 +86,8 @@
 		"th th th th th th th th th th th th"
 		"pr pr pr pr pr pr pr pr pr pr pr pr"
 		"pt pt pt pt pt pt pt pt pt pt pt pt"
+		"fo fo fo fo fo fo fo fo fo fo fo fo"
+		"vi vi vi vi vi vi vi vi vi vi vi vi"
 		"f f f f f f f f f f f f";
 }
 
@@ -97,6 +99,10 @@
 }
 .promo2 {
 	grid-area: pt;	
+}
+
+.video {
+	grid-area: vi;
 }
 @media only screen and (max-width: 1070px) {
 
@@ -268,7 +274,11 @@ nav > ul li a:active {
 	margin-top: 30px;
 }
 
-
+.fourthTitle {
+	grid-area: fo;
+	color: $app-title-color;
+	margin-top: 30px;
+}
 .appPrice {
 	color: $app-price-color;
 	font-weight: normal;
