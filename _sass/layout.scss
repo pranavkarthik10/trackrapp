@@ -132,6 +132,25 @@
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
+	.presscontainer {					// Set up the container for the site content
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: 115px auto auto auto auto auto auto auto auto auto auto auto auto;
+		grid-column-gap: 30px;
+		grid-template-areas: 
+		"h h h h h h h h h h h h"
+		"a a a a a a a a a a a a"
+		"t t t t t t t t t t t t"
+		"c c c c c c c c c c c c"
+		"s s s s s s s s s s s s"
+		"s2 s2 s2 s2 s2 s2 s2 s2 s2 s2 s2 s2"
+		"s3 s3 s3 s3 s3 s3 s3 s3 s3 s3 s3 s3"
+		"s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4 s4"
+		"fo fo fo fo fo fo fo fo fo fo fo fo"
+		"vi vi vi vi vi vi vi vi vi vi vi vi"
+		"th th th th th th th th th th th th"
+		"pr pr pr pr pr pr pr pr pr pr pr pr"
+		"pt pt pt pt pt pt pt pt pt pt pt pt";
+}
 }
 
 header {
