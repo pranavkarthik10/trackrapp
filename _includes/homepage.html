@@ -44,7 +44,11 @@
                             {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
+                          {% if site.appstore_link %}
+                   
                             <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                          {% endif %}
+                          <p class = "appDescription">Currently in beta: https://testflight.apple.com/join/RCu9ynSS</p>
                         </div>
                     </div>
                     {% include features.html %}
