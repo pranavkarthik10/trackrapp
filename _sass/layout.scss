@@ -75,7 +75,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: 115px auto auto auto auto auto auto auto auto auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -87,7 +87,8 @@
 		"vi vi vi vi vi vi vi vi vi vi vi vi"
 		"th th th th th th th th th th th th"
 		"pr pr pr pr pr pr pr pr pr pr pr pr"
-		"pt pt pt pt pt pt pt pt pt pt pt pt";
+		"pt pt pt pt pt pt pt pt pt pt pt pt"
+		"f f f f f f f f f f f f";
 }
 
 .screen {
